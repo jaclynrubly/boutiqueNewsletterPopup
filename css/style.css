@@ -1,0 +1,135 @@
+ body {
+   line-height: 1.5;
+   color: #555;
+   font-family: 'Lato', sans-serif;
+   background-color: #000;
+ }
+ 
+ .tea-popup {
+   width: 770px;
+   max-width: inherit;
+   padding: 0;
+   border: 0;
+   margin: 0 auto;
+   margin-top: 100px;
+   text-align: center;
+   position: relative;
+   background-color: #fff;
+ }
+ 
+ .tea-popup .close-popup {
+   font-size: 10px;
+   color: #fff;
+   text-transform: uppercase;
+   background: none;
+   border: 0;
+   position: absolute;
+   right: 0;
+   padding: 0;
+   top: -20px;
+ }
+ 
+ .tea-popup .close-popup i {
+   font-size: 8px;
+   margin-left: 3px;
+ }
+ 
+ .white-popup {
+   background-color: #fff;
+ }
+ 
+ .banner-newsletter {
+   float: left;
+   width: 270px;
+ }
+ 
+ .kt-popup-newsletter {
+   position: relative;
+   overflow: hidden;
+   padding: 40px 50px;
+   text-align: center;
+   min-height: 350px;
+ }
+ 
+ .popup-title h1 {
+   font-size: 40px;
+   text-transform: uppercase;
+   color: #666;
+   font-weight: bold;
+   font-family: "Montserrat", sans-serif;
+ }
+ 
+ .popup-title .notice {
+   font-size: 14px;
+   text-transform: uppercase;
+   font-family: "Montserrat", sans-serif;
+ }
+ 
+ .popup-title .primary {
+   font-size: 17px;
+   color: #666;
+   font-family: "Montserrat", sans-serif;
+   color: #f4bf4e;
+   margin-bottom: 20px;
+   display: inline-block;
+   font-weight: 300;
+ }
+ 
+ input#mce-EMAIL {
+   width: 100%;
+   height: 54px;
+   border-color: rgba(0, 0, 0, 0.1);
+   text-align: center;
+   font-size: 14px;
+   color: #cfcfcf;
+ }
+ 
+ button#subscribe {
+   width: 100%;
+   background-color: #e3504d;
+   height: 50px;
+   margin: 10px 0;
+   font-family: "Montserrat", sans-serif;
+   font-size: 14px;
+   color: #fff;
+   display: inline-block;
+   cursor: pointer;
+   outline: none;
+   white-space: nowrap;
+   border: none;
+   text-transform: uppercase;
+ }
+ 
+ .checkbox-bottom {
+   margin-top: 10px;
+ }
+ 
+ input[type=checkbox] {
+   display: none;
+ }
+ 
+ .checkbox-bottom label {
+   font-size: 12px;
+   color: #999;
+   text-transform: uppercase;
+   font-weight: lighter;
+ }
+ 
+ input[type=checkbox]+label {
+   cursor: pointer;
+ }
+ 
+ input[type=checkbox]+label:before {
+   content: '';
+   display: inline-block;
+   width: 12px;
+   height: 12px;
+   border: 1px solid #cfcfcf;
+   margin: 0 10px 0 30px;
+   top: 2px;
+   position: relative;
+ }
+ 
+ input[type=checkbox]:checked+label:before {
+   background: url(//cdn.shopify.com/s/files/1/1467/1304/t/7/assets/icon-check.png?2131806913827189849) no-repeat;
+ }
